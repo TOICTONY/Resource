@@ -266,7 +266,7 @@
     // ═══════════════════════════════════════════
     const initWatermark = () => {
         const watermark = document.createElement('div');
-        watermark.textContent = 'Thunder FileToLink';
+        watermark.textContent = 'Retro F2L Robot';
         Object.assign(watermark.style, {
             position: 'fixed',
             bottom: '12px',
@@ -294,3 +294,4 @@
     initCopyright();
     initWatermark();
 })();
+
